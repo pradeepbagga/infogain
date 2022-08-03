@@ -1,0 +1,55 @@
+$border_color: #BDBDBD;
+$background_color: #BDBDBD;
+$background_color2: #EEEEEE;
+
+.box {
+    border:1px $border_color solid;
+    padding: 0.5em;
+    margin:0.5em 0 1em 0;
+}
+
+.totalPoints {
+    text-align: right;
+}
+
+.last-3-months-details {
+    border: 1px $border_color solid;
+    margin-bottom: 2em;
+
+    h3 {
+        background-color: $background_color;
+        padding:0.5em;
+    }
+
+    .level-1-tree {
+        background-color: $background_color2;
+        border-top: 1px $border_color solid;
+        padding: 0.4em;
+    }
+    .level-1-tree > div > .MuiTreeItem-label,
+    .level-2-tree > div > .MuiTreeItem-label {
+        font-weight: 600;
+    }
+
+    .level-2-tree {
+        margin:0.75em 0;
+    }
+
+    .tree-data {
+        border:1px $border_color solid;
+        margin:0 0 0 10px;   
+        padding:0;
+        width: calc(100% - 20px);
+
+        .MuiGrid-item {
+            padding: 0.25em 0.5em !important;
+        }
+    }
+}
+
+.css-1g86id8-MuiTreeItem-content.Mui-selected {
+    background: none !important;
+}
+.css-1g86id8-MuiTreeItem-content:hover {
+    background: none !important;
+}
